@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Quiz</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+</head>
+<body>
+    <header class="title">
+        <h1>Developer Quiz</h1>
+    </header>
+
+    <main>
+        <section class="setup">
+            <div class="categories__container">
+                <h2>Category</h2>
+                <ul class="categories"></ul>
+            </div>
+    
+            <div class="difficulty__container">
+                <h2>Difficulty</h2>
+                <ul class="difficulties"></ul>
+            </div>
+    
+            <div class="slider__container">
+                <h2 class="slider__value"></h2>
+                <input type="range" min="1" max="20" step="1" value="5" id="amount" class="slider">
+            </div>
+    
+            <section class="start__btn">
+                <a href="" class="start__button">Start</a>
+            </section>
+        </section>
+
+        <section class="quiz hide">
+            <div class="timer__container"></div>
+            <div class="questions"></div>
+
+            <div class="buttons">
+                <button class="stop button__questions">Quit</button>
+                <button class="next button__questions">Next</button>
+            </div>
+        </section>
+
+        <section class="result hide">
+            <div class="result__header">
+                <h2 class="big">Results</h2>
+                <button class="other__quiz">Take another quiz</button>
+            </div>
+            <div class="result__container"></div>
+        </section>
+    </main>
+    
+        
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>
