@@ -1,10 +1,5 @@
 # Developer Quiz
 
-In deze opdracht maak je een mobiele applicatie voor een Developer Quiz. Je consumeert data van de QuizAPI voor het opvragen van de vragen en antwoorden.
+This is an application using the QuizAPI to load the questions and answers. This was an assignment for Artevelde.
 
-|           |                                  |
-| --------- | -------------------------------- |
-| Firstname | Jan                              |
-| Lastname  | Deschacht                        |
-| Gender    | :male_sign:                      |
-| Email     | jan.desch@student.arteveldehs.be |
+**Technologies used:** Javascript, CSS and HTML
